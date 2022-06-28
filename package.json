@@ -1,0 +1,33 @@
+{
+  "name": "hackmamba-netlify-funcitons",
+  "version": "1.0.0",
+  "description": "Test repo for Hackmamba Netlify Functions",
+  "main": "index.js",
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "serve": "gatsby serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulieScanlon/hackmamba-netlify-funcitons.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PaulieScanlon/hackmamba-netlify-funcitons/issues"
+  },
+  "homepage": "https://github.com/PaulieScanlon/hackmamba-netlify-funcitons#readme",
+  "dependencies": {
+    "gatsby": "^4.17.1",
+    "gatsby-plugin-netlify": "^5.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@netlify/plugin-gatsby": "^3.2.4"
+  }
+}
